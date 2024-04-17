@@ -1,0 +1,177 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=35.0522,-119.2437&key=<GOOGLE_API_KEY>&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 17 Apr 2024 18:09:06 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Vary:
+      - Accept-Language
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - mafe
+      Content-Length:
+      - '9804'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=89
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+    body:
+      encoding: UTF-8
+      string: "{\n   \"results\" : \n   [\n      {\n         \"address_components\"
+        : \n         [\n            {\n               \"long_name\" : \"Cappello\",\n
+        \              \"short_name\" : \"Cappello\",\n               \"types\" :
+        \n               [\n                  \"route\"\n               ]\n            },\n
+        \           {\n               \"long_name\" : \"Bakersfield\",\n               \"short_name\"
+        : \"Bakersfield\",\n               \"types\" : \n               [\n                  \"locality\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"Kern County\",\n               \"short_name\"
+        : \"Kern County\",\n               \"types\" : \n               [\n                  \"administrative_area_level_2\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"California\",\n               \"short_name\"
+        : \"CA\",\n               \"types\" : \n               [\n                  \"administrative_area_level_1\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"United States\",\n               \"short_name\"
+        : \"US\",\n               \"types\" : \n               [\n                  \"country\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"93311\",\n               \"short_name\" :
+        \"93311\",\n               \"types\" : \n               [\n                  \"postal_code\"\n
+        \              ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Cappello, Bakersfield, CA 93311, USA\",\n         \"geometry\" : \n         {\n
+        \           \"bounds\" : \n            {\n               \"northeast\" : \n
+        \              {\n                  \"lat\" : 35.0546422,\n                  \"lng\"
+        : -119.2423533\n               },\n               \"southwest\" : \n               {\n
+        \                 \"lat\" : 35.047389,\n                  \"lng\" : -119.2424391\n
+        \              }\n            },\n            \"location\" : \n            {\n
+        \              \"lat\" : 35.0510157,\n               \"lng\" : -119.2423901\n
+        \           },\n            \"location_type\" : \"GEOMETRIC_CENTER\",\n            \"viewport\"
+        : \n            {\n               \"northeast\" : \n               {\n                  \"lat\"
+        : 35.0546422,\n                  \"lng\" : -119.2410472197085\n               },\n
+        \              \"southwest\" : \n               {\n                  \"lat\"
+        : 35.047389,\n                  \"lng\" : -119.2437451802915\n               }\n
+        \           }\n         },\n         \"place_id\" : \"ChIJkRCSkXcv6oARDIXG03Dh1xU\",\n
+        \        \"types\" : \n         [\n            \"route\"\n         ]\n      },\n
+        \     {\n         \"address_components\" : \n         [\n            {\n               \"long_name\"
+        : \"93311\",\n               \"short_name\" : \"93311\",\n               \"types\"
+        : \n               [\n                  \"postal_code\"\n               ]\n
+        \           },\n            {\n               \"long_name\" : \"Bakersfield\",\n
+        \              \"short_name\" : \"Bakersfield\",\n               \"types\"
+        : \n               [\n                  \"locality\",\n                  \"political\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"Kern County\",\n               \"short_name\" : \"Kern County\",\n               \"types\"
+        : \n               [\n                  \"administrative_area_level_2\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"California\",\n               \"short_name\"
+        : \"CA\",\n               \"types\" : \n               [\n                  \"administrative_area_level_1\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"United States\",\n               \"short_name\"
+        : \"US\",\n               \"types\" : \n               [\n                  \"country\",\n
+        \                 \"political\"\n               ]\n            }\n         ],\n
+        \        \"formatted_address\" : \"Bakersfield, CA 93311, USA\",\n         \"geometry\"
+        : \n         {\n            \"bounds\" : \n            {\n               \"northeast\"
+        : \n               {\n                  \"lat\" : 35.419953,\n                  \"lng\"
+        : -119.0535571\n               },\n               \"southwest\" : \n               {\n
+        \                 \"lat\" : 34.9788289,\n                  \"lng\" : -119.367091\n
+        \              }\n            },\n            \"location\" : \n            {\n
+        \              \"lat\" : 35.1268513,\n               \"lng\" : -119.1855785\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : \n            {\n               \"northeast\" : \n               {\n                  \"lat\"
+        : 35.419953,\n                  \"lng\" : -119.0535571\n               },\n
+        \              \"southwest\" : \n               {\n                  \"lat\"
+        : 34.9788289,\n                  \"lng\" : -119.367091\n               }\n
+        \           }\n         },\n         \"place_id\" : \"ChIJD2y4Epk56oARcieXNNz8UMM\",\n
+        \        \"types\" : \n         [\n            \"postal_code\"\n         ]\n
+        \     },\n      {\n         \"address_components\" : \n         [\n            {\n
+        \              \"long_name\" : \"Kern County\",\n               \"short_name\"
+        : \"Kern County\",\n               \"types\" : \n               [\n                  \"administrative_area_level_2\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"California\",\n               \"short_name\"
+        : \"CA\",\n               \"types\" : \n               [\n                  \"administrative_area_level_1\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"United States\",\n               \"short_name\"
+        : \"US\",\n               \"types\" : \n               [\n                  \"country\",\n
+        \                 \"political\"\n               ]\n            }\n         ],\n
+        \        \"formatted_address\" : \"Kern County, CA, USA\",\n         \"geometry\"
+        : \n         {\n            \"bounds\" : \n            {\n               \"northeast\"
+        : \n               {\n                  \"lat\" : 35.7983921,\n                  \"lng\"
+        : -117.616517\n               },\n               \"southwest\" : \n               {\n
+        \                 \"lat\" : 34.788655,\n                  \"lng\" : -120.1943691\n
+        \              }\n            },\n            \"location\" : \n            {\n
+        \              \"lat\" : 35.4937274,\n               \"lng\" : -118.8596804\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : \n            {\n               \"northeast\" : \n               {\n                  \"lat\"
+        : 35.7983921,\n                  \"lng\" : -117.616517\n               },\n
+        \              \"southwest\" : \n               {\n                  \"lat\"
+        : 34.788655,\n                  \"lng\" : -120.1943691\n               }\n
+        \           }\n         },\n         \"place_id\" : \"ChIJay370_YE64AR-iOuuhZv_Hk\",\n
+        \        \"types\" : \n         [\n            \"administrative_area_level_2\",\n
+        \           \"political\"\n         ]\n      },\n      {\n         \"address_components\"
+        : \n         [\n            {\n               \"long_name\" : \"California\",\n
+        \              \"short_name\" : \"CA\",\n               \"types\" : \n               [\n
+        \                 \"administrative_area_level_1\",\n                  \"political\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"United States\",\n               \"short_name\" : \"US\",\n               \"types\"
+        : \n               [\n                  \"country\",\n                  \"political\"\n
+        \              ]\n            }\n         ],\n         \"formatted_address\"
+        : \"California, USA\",\n         \"geometry\" : \n         {\n            \"bounds\"
+        : \n            {\n               \"northeast\" : \n               {\n                  \"lat\"
+        : 42.009503,\n                  \"lng\" : -114.131211\n               },\n
+        \              \"southwest\" : \n               {\n                  \"lat\"
+        : 32.528832,\n                  \"lng\" : -124.482003\n               }\n
+        \           },\n            \"location\" : \n            {\n               \"lat\"
+        : 36.778261,\n               \"lng\" : -119.4179324\n            },\n            \"location_type\"
+        : \"APPROXIMATE\",\n            \"viewport\" : \n            {\n               \"northeast\"
+        : \n               {\n                  \"lat\" : 42.009503,\n                  \"lng\"
+        : -114.131211\n               },\n               \"southwest\" : \n               {\n
+        \                 \"lat\" : 32.528832,\n                  \"lng\" : -124.482003\n
+        \              }\n            }\n         },\n         \"place_id\" : \"ChIJPV4oX_65j4ARVW8IJ6IJUYs\",\n
+        \        \"types\" : \n         [\n            \"administrative_area_level_1\",\n
+        \           \"political\"\n         ]\n      },\n      {\n         \"address_components\"
+        : \n         [\n            {\n               \"long_name\" : \"United States\",\n
+        \              \"short_name\" : \"US\",\n               \"types\" : \n               [\n
+        \                 \"country\",\n                  \"political\"\n               ]\n
+        \           }\n         ],\n         \"formatted_address\" : \"United States\",\n
+        \        \"geometry\" : \n         {\n            \"bounds\" : \n            {\n
+        \              \"northeast\" : \n               {\n                  \"lat\"
+        : 74.071038,\n                  \"lng\" : -66.885417\n               },\n
+        \              \"southwest\" : \n               {\n                  \"lat\"
+        : 18.7763,\n                  \"lng\" : 166.9999999\n               }\n            },\n
+        \           \"location\" : \n            {\n               \"lat\" : 37.09024,\n
+        \              \"lng\" : -95.712891\n            },\n            \"location_type\"
+        : \"APPROXIMATE\",\n            \"viewport\" : \n            {\n               \"northeast\"
+        : \n               {\n                  \"lat\" : 74.071038,\n                  \"lng\"
+        : -66.885417\n               },\n               \"southwest\" : \n               {\n
+        \                 \"lat\" : 18.7763,\n                  \"lng\" : 166.9999999\n
+        \              }\n            }\n         },\n         \"place_id\" : \"ChIJCzYy5IS16lQRQrfeQ5K5Oxw\",\n
+        \        \"types\" : \n         [\n            \"country\",\n            \"political\"\n
+        \        ]\n      }\n   ],\n   \"status\" : \"OK\"\n}"
+  recorded_at: Wed, 17 Apr 2024 18:09:06 GMT
+recorded_with: VCR 6.2.0

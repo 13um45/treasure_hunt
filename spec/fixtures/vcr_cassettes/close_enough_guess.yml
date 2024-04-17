@@ -1,0 +1,422 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=34.0522,-118.2437&key=<GOOGLE_API_KEY>&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 17 Apr 2024 18:09:06 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Vary:
+      - Accept-Language
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - mafe
+      Content-Length:
+      - '28867'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=107
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+    body:
+      encoding: UTF-8
+      string: "{\n   \"results\" : \n   [\n      {\n         \"address_components\"
+        : \n         [\n            {\n               \"long_name\" : \"106\",\n               \"short_name\"
+        : \"106\",\n               \"types\" : \n               [\n                  \"street_number\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"West 1st Street\",\n               \"short_name\" : \"W 1st St\",\n               \"types\"
+        : \n               [\n                  \"route\"\n               ]\n            },\n
+        \           {\n               \"long_name\" : \"Downtown Los Angeles\",\n
+        \              \"short_name\" : \"Downtown Los Angeles\",\n               \"types\"
+        : \n               [\n                  \"neighborhood\",\n                  \"political\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"Los Angeles\",\n               \"short_name\" : \"Los Angeles\",\n               \"types\"
+        : \n               [\n                  \"locality\",\n                  \"political\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"Los Angeles County\",\n               \"short_name\" : \"Los Angeles County\",\n
+        \              \"types\" : \n               [\n                  \"administrative_area_level_2\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"California\",\n               \"short_name\"
+        : \"CA\",\n               \"types\" : \n               [\n                  \"administrative_area_level_1\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"United States\",\n               \"short_name\"
+        : \"US\",\n               \"types\" : \n               [\n                  \"country\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"90012\",\n               \"short_name\" :
+        \"90012\",\n               \"types\" : \n               [\n                  \"postal_code\"\n
+        \              ]\n            }\n         ],\n         \"formatted_address\"
+        : \"106 W 1st St, Los Angeles, CA 90012, USA\",\n         \"geometry\" : \n
+        \        {\n            \"location\" : \n            {\n               \"lat\"
+        : 34.0522008,\n               \"lng\" : -118.2436892\n            },\n            \"location_type\"
+        : \"ROOFTOP\",\n            \"viewport\" : \n            {\n               \"northeast\"
+        : \n               {\n                  \"lat\" : 34.0535497802915,\n                  \"lng\"
+        : -118.2423402197085\n               },\n               \"southwest\" : \n
+        \              {\n                  \"lat\" : 34.0508518197085,\n                  \"lng\"
+        : -118.2450381802915\n               }\n            }\n         },\n         \"place_id\"
+        : \"ChIJw78X3I7HwoAR1LpYeM-YiCc\",\n         \"types\" : \n         [\n            \"cafe\",\n
+        \           \"establishment\",\n            \"food\",\n            \"point_of_interest\"\n
+        \        ]\n      },\n      {\n         \"address_components\" : \n         [\n
+        \           {\n               \"long_name\" : \"110\",\n               \"short_name\"
+        : \"110\",\n               \"types\" : \n               [\n                  \"street_number\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"Judge John Aiso Street\",\n               \"short_name\" : \"Judge John
+        Aiso St\",\n               \"types\" : \n               [\n                  \"route\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"Downtown Los Angeles\",\n               \"short_name\" : \"Downtown Los
+        Angeles\",\n               \"types\" : \n               [\n                  \"neighborhood\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"Los Angeles\",\n               \"short_name\"
+        : \"Los Angeles\",\n               \"types\" : \n               [\n                  \"locality\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"Los Angeles County\",\n               \"short_name\"
+        : \"Los Angeles County\",\n               \"types\" : \n               [\n
+        \                 \"administrative_area_level_2\",\n                  \"political\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"California\",\n               \"short_name\" : \"CA\",\n               \"types\"
+        : \n               [\n                  \"administrative_area_level_1\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"United States\",\n               \"short_name\"
+        : \"US\",\n               \"types\" : \n               [\n                  \"country\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"90012\",\n               \"short_name\" :
+        \"90012\",\n               \"types\" : \n               [\n                  \"postal_code\"\n
+        \              ]\n            }\n         ],\n         \"formatted_address\"
+        : \"110 Judge John Aiso St, Los Angeles, CA 90012, USA\",\n         \"geometry\"
+        : \n         {\n            \"location\" : \n            {\n               \"lat\"
+        : 34.0522046,\n               \"lng\" : -118.243711\n            },\n            \"location_type\"
+        : \"ROOFTOP\",\n            \"viewport\" : \n            {\n               \"northeast\"
+        : \n               {\n                  \"lat\" : 34.05355358029149,\n                  \"lng\"
+        : -118.2423620197085\n               },\n               \"southwest\" : \n
+        \              {\n                  \"lat\" : 34.05085561970849,\n                  \"lng\"
+        : -118.2450599802915\n               }\n            }\n         },\n         \"place_id\"
+        : \"ChIJzZDFu77HwoARyn-QbNboWjU\",\n         \"types\" : \n         [\n            \"street_address\"\n
+        \        ]\n      },\n      {\n         \"address_components\" : \n         [\n
+        \           {\n               \"long_name\" : \"Main & 1st\",\n               \"short_name\"
+        : \"Main & 1st\",\n               \"types\" : \n               [\n                  \"establishment\",\n
+        \                 \"point_of_interest\",\n                  \"transit_station\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"Downtown Los Angeles\",\n               \"short_name\" : \"Downtown Los
+        Angeles\",\n               \"types\" : \n               [\n                  \"neighborhood\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"Los Angeles\",\n               \"short_name\"
+        : \"Los Angeles\",\n               \"types\" : \n               [\n                  \"locality\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"Los Angeles County\",\n               \"short_name\"
+        : \"Los Angeles County\",\n               \"types\" : \n               [\n
+        \                 \"administrative_area_level_2\",\n                  \"political\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"California\",\n               \"short_name\" : \"CA\",\n               \"types\"
+        : \n               [\n                  \"administrative_area_level_1\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"United States\",\n               \"short_name\"
+        : \"US\",\n               \"types\" : \n               [\n                  \"country\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"90012\",\n               \"short_name\" :
+        \"90012\",\n               \"types\" : \n               [\n                  \"postal_code\"\n
+        \              ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Main & 1st, Los Angeles, CA 90012, USA\",\n         \"geometry\" : \n
+        \        {\n            \"location\" : \n            {\n               \"lat\"
+        : 34.052386,\n               \"lng\" : -118.2433552\n            },\n            \"location_type\"
+        : \"GEOMETRIC_CENTER\",\n            \"viewport\" : \n            {\n               \"northeast\"
+        : \n               {\n                  \"lat\" : 34.0537349802915,\n                  \"lng\"
+        : -118.2420062197085\n               },\n               \"southwest\" : \n
+        \              {\n                  \"lat\" : 34.0510370197085,\n                  \"lng\"
+        : -118.2447041802915\n               }\n            }\n         },\n         \"place_id\"
+        : \"ChIJo6HN00jGwoARFcfNcnbob-8\",\n         \"types\" : \n         [\n            \"establishment\",\n
+        \           \"point_of_interest\",\n            \"transit_station\"\n         ]\n
+        \     },\n      {\n         \"address_components\" : \n         [\n            {\n
+        \              \"long_name\" : \"100\",\n               \"short_name\" : \"100\",\n
+        \              \"types\" : \n               [\n                  \"street_number\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"West 1st Street\",\n               \"short_name\" : \"W 1st St\",\n               \"types\"
+        : \n               [\n                  \"route\"\n               ]\n            },\n
+        \           {\n               \"long_name\" : \"Downtown Los Angeles\",\n
+        \              \"short_name\" : \"Downtown Los Angeles\",\n               \"types\"
+        : \n               [\n                  \"neighborhood\",\n                  \"political\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"Los Angeles\",\n               \"short_name\" : \"Los Angeles\",\n               \"types\"
+        : \n               [\n                  \"locality\",\n                  \"political\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"Los Angeles County\",\n               \"short_name\" : \"Los Angeles County\",\n
+        \              \"types\" : \n               [\n                  \"administrative_area_level_2\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"California\",\n               \"short_name\"
+        : \"CA\",\n               \"types\" : \n               [\n                  \"administrative_area_level_1\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"United States\",\n               \"short_name\"
+        : \"US\",\n               \"types\" : \n               [\n                  \"country\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"90012\",\n               \"short_name\" :
+        \"90012\",\n               \"types\" : \n               [\n                  \"postal_code\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"4112\",\n               \"short_name\" : \"4112\",\n               \"types\"
+        : \n               [\n                  \"postal_code_suffix\"\n               ]\n
+        \           }\n         ],\n         \"formatted_address\" : \"100 W 1st St,
+        Los Angeles, CA 90012, USA\",\n         \"geometry\" : \n         {\n            \"bounds\"
+        : \n            {\n               \"northeast\" : \n               {\n                  \"lat\"
+        : 34.0525089,\n                  \"lng\" : -118.2436234\n               },\n
+        \              \"southwest\" : \n               {\n                  \"lat\"
+        : 34.0512033,\n                  \"lng\" : -118.2450511\n               }\n
+        \           },\n            \"location\" : \n            {\n               \"lat\"
+        : 34.0520016,\n               \"lng\" : -118.2445562\n            },\n            \"location_type\"
+        : \"ROOFTOP\",\n            \"viewport\" : \n            {\n               \"northeast\"
+        : \n               {\n                  \"lat\" : 34.0532050802915,\n                  \"lng\"
+        : -118.2429882697085\n               },\n               \"southwest\" : \n
+        \              {\n                  \"lat\" : 34.05050711970851,\n                  \"lng\"
+        : -118.2456862302915\n               }\n            }\n         },\n         \"place_id\"
+        : \"ChIJwT1mLknGwoARB-cDBO-6TUQ\",\n         \"types\" : \n         [\n            \"premise\"\n
+        \        ]\n      },\n      {\n         \"address_components\" : \n         [\n
+        \           {\n               \"long_name\" : \"106-100\",\n               \"short_name\"
+        : \"106-100\",\n               \"types\" : \n               [\n                  \"street_number\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"West 1st Street\",\n               \"short_name\" : \"W 1st St\",\n               \"types\"
+        : \n               [\n                  \"route\"\n               ]\n            },\n
+        \           {\n               \"long_name\" : \"Downtown Los Angeles\",\n
+        \              \"short_name\" : \"Downtown Los Angeles\",\n               \"types\"
+        : \n               [\n                  \"neighborhood\",\n                  \"political\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"Los Angeles\",\n               \"short_name\" : \"Los Angeles\",\n               \"types\"
+        : \n               [\n                  \"locality\",\n                  \"political\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"Los Angeles County\",\n               \"short_name\" : \"Los Angeles County\",\n
+        \              \"types\" : \n               [\n                  \"administrative_area_level_2\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"California\",\n               \"short_name\"
+        : \"CA\",\n               \"types\" : \n               [\n                  \"administrative_area_level_1\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"United States\",\n               \"short_name\"
+        : \"US\",\n               \"types\" : \n               [\n                  \"country\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"90012\",\n               \"short_name\" :
+        \"90012\",\n               \"types\" : \n               [\n                  \"postal_code\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"4112\",\n               \"short_name\" : \"4112\",\n               \"types\"
+        : \n               [\n                  \"postal_code_suffix\"\n               ]\n
+        \           }\n         ],\n         \"formatted_address\" : \"106-100 W 1st
+        St, Los Angeles, CA 90012, USA\",\n         \"geometry\" : \n         {\n
+        \           \"bounds\" : \n            {\n               \"northeast\" : \n
+        \              {\n                  \"lat\" : 34.0523706,\n                  \"lng\"
+        : -118.2433824\n               },\n               \"southwest\" : \n               {\n
+        \                 \"lat\" : 34.0522259,\n                  \"lng\" : -118.2435993\n
+        \              }\n            },\n            \"location\" : \n            {\n
+        \              \"lat\" : 34.0522983,\n               \"lng\" : -118.2434908\n
+        \           },\n            \"location_type\" : \"GEOMETRIC_CENTER\",\n            \"viewport\"
+        : \n            {\n               \"northeast\" : \n               {\n                  \"lat\"
+        : 34.05364723029149,\n                  \"lng\" : -118.2421418697085\n               },\n
+        \              \"southwest\" : \n               {\n                  \"lat\"
+        : 34.05094926970849,\n                  \"lng\" : -118.2448398302915\n               }\n
+        \           }\n         },\n         \"place_id\" : \"ChIJ40Rs1EjGwoAR1puMUQjaT1w\",\n
+        \        \"types\" : \n         [\n            \"route\"\n         ]\n      },\n
+        \     {\n         \"address_components\" : \n         [\n            {\n               \"long_name\"
+        : \"90012\",\n               \"short_name\" : \"90012\",\n               \"types\"
+        : \n               [\n                  \"postal_code\"\n               ]\n
+        \           },\n            {\n               \"long_name\" : \"Los Angeles\",\n
+        \              \"short_name\" : \"Los Angeles\",\n               \"types\"
+        : \n               [\n                  \"locality\",\n                  \"political\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"Los Angeles County\",\n               \"short_name\" : \"Los Angeles County\",\n
+        \              \"types\" : \n               [\n                  \"administrative_area_level_2\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"California\",\n               \"short_name\"
+        : \"CA\",\n               \"types\" : \n               [\n                  \"administrative_area_level_1\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"United States\",\n               \"short_name\"
+        : \"US\",\n               \"types\" : \n               [\n                  \"country\",\n
+        \                 \"political\"\n               ]\n            }\n         ],\n
+        \        \"formatted_address\" : \"Los Angeles, CA 90012, USA\",\n         \"geometry\"
+        : \n         {\n            \"bounds\" : \n            {\n               \"northeast\"
+        : \n               {\n                  \"lat\" : 34.0956649,\n                  \"lng\"
+        : -118.2245129\n               },\n               \"southwest\" : \n               {\n
+        \                 \"lat\" : 34.045538,\n                  \"lng\" : -118.25679\n
+        \              }\n            },\n            \"location\" : \n            {\n
+        \              \"lat\" : 34.0653347,\n               \"lng\" : -118.243891\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : \n            {\n               \"northeast\" : \n               {\n                  \"lat\"
+        : 34.0956649,\n                  \"lng\" : -118.2245129\n               },\n
+        \              \"southwest\" : \n               {\n                  \"lat\"
+        : 34.045538,\n                  \"lng\" : -118.25679\n               }\n            }\n
+        \        },\n         \"place_id\" : \"ChIJod_IT1jGwoARAWmb8lcnY84\",\n         \"types\"
+        : \n         [\n            \"postal_code\"\n         ]\n      },\n      {\n
+        \        \"address_components\" : \n         [\n            {\n               \"long_name\"
+        : \"Downtown Los Angeles\",\n               \"short_name\" : \"Downtown Los
+        Angeles\",\n               \"types\" : \n               [\n                  \"neighborhood\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"Los Angeles\",\n               \"short_name\"
+        : \"Los Angeles\",\n               \"types\" : \n               [\n                  \"locality\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"Los Angeles County\",\n               \"short_name\"
+        : \"Los Angeles County\",\n               \"types\" : \n               [\n
+        \                 \"administrative_area_level_2\",\n                  \"political\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"California\",\n               \"short_name\" : \"CA\",\n               \"types\"
+        : \n               [\n                  \"administrative_area_level_1\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"United States\",\n               \"short_name\"
+        : \"US\",\n               \"types\" : \n               [\n                  \"country\",\n
+        \                 \"political\"\n               ]\n            }\n         ],\n
+        \        \"formatted_address\" : \"Downtown Los Angeles, Los Angeles, CA,
+        USA\",\n         \"geometry\" : \n         {\n            \"bounds\" : \n
+        \           {\n               \"northeast\" : \n               {\n                  \"lat\"
+        : 34.0652676,\n                  \"lng\" : -118.2225859\n               },\n
+        \              \"southwest\" : \n               {\n                  \"lat\"
+        : 34.0148596,\n                  \"lng\" : -118.2741569\n               }\n
+        \           },\n            \"location\" : \n            {\n               \"lat\"
+        : 34.055691,\n               \"lng\" : -118.2487702\n            },\n            \"location_type\"
+        : \"APPROXIMATE\",\n            \"viewport\" : \n            {\n               \"northeast\"
+        : \n               {\n                  \"lat\" : 34.0652676,\n                  \"lng\"
+        : -118.2225859\n               },\n               \"southwest\" : \n               {\n
+        \                 \"lat\" : 34.0148596,\n                  \"lng\" : -118.2741569\n
+        \              }\n            }\n         },\n         \"place_id\" : \"ChIJAf09JTTGwoARIKmlGd9S_iY\",\n
+        \        \"types\" : \n         [\n            \"neighborhood\",\n            \"political\"\n
+        \        ]\n      },\n      {\n         \"address_components\" : \n         [\n
+        \           {\n               \"long_name\" : \"Central LA\",\n               \"short_name\"
+        : \"Central LA\",\n               \"types\" : \n               [\n                  \"neighborhood\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"Los Angeles\",\n               \"short_name\"
+        : \"Los Angeles\",\n               \"types\" : \n               [\n                  \"locality\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"Los Angeles County\",\n               \"short_name\"
+        : \"Los Angeles County\",\n               \"types\" : \n               [\n
+        \                 \"administrative_area_level_2\",\n                  \"political\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"California\",\n               \"short_name\" : \"CA\",\n               \"types\"
+        : \n               [\n                  \"administrative_area_level_1\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"United States\",\n               \"short_name\"
+        : \"US\",\n               \"types\" : \n               [\n                  \"country\",\n
+        \                 \"political\"\n               ]\n            }\n         ],\n
+        \        \"formatted_address\" : \"Central LA, Los Angeles, CA, USA\",\n         \"geometry\"
+        : \n         {\n            \"bounds\" : \n            {\n               \"northeast\"
+        : \n               {\n                  \"lat\" : 34.156633,\n                  \"lng\"
+        : -118.1913053\n               },\n               \"southwest\" : \n               {\n
+        \                 \"lat\" : 34.0127129,\n                  \"lng\" : -118.3978721\n
+        \              }\n            },\n            \"location\" : \n            {\n
+        \              \"lat\" : 34.0686748,\n               \"lng\" : -118.3228165\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : \n            {\n               \"northeast\" : \n               {\n                  \"lat\"
+        : 34.156633,\n                  \"lng\" : -118.1913053\n               },\n
+        \              \"southwest\" : \n               {\n                  \"lat\"
+        : 34.0127129,\n                  \"lng\" : -118.3978721\n               }\n
+        \           }\n         },\n         \"place_id\" : \"ChIJz-A_k1nHwoARloiyHDKVAm8\",\n
+        \        \"types\" : \n         [\n            \"neighborhood\",\n            \"political\"\n
+        \        ]\n      },\n      {\n         \"address_components\" : \n         [\n
+        \           {\n               \"long_name\" : \"Los Angeles\",\n               \"short_name\"
+        : \"Los Angeles\",\n               \"types\" : \n               [\n                  \"locality\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"Los Angeles County\",\n               \"short_name\"
+        : \"Los Angeles County\",\n               \"types\" : \n               [\n
+        \                 \"administrative_area_level_2\",\n                  \"political\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"California\",\n               \"short_name\" : \"CA\",\n               \"types\"
+        : \n               [\n                  \"administrative_area_level_1\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"United States\",\n               \"short_name\"
+        : \"US\",\n               \"types\" : \n               [\n                  \"country\",\n
+        \                 \"political\"\n               ]\n            }\n         ],\n
+        \        \"formatted_address\" : \"Los Angeles, CA, USA\",\n         \"geometry\"
+        : \n         {\n            \"bounds\" : \n            {\n               \"northeast\"
+        : \n               {\n                  \"lat\" : 34.3373061,\n                  \"lng\"
+        : -118.1552891\n               },\n               \"southwest\" : \n               {\n
+        \                 \"lat\" : 33.7036519,\n                  \"lng\" : -118.6681759\n
+        \              }\n            },\n            \"location\" : \n            {\n
+        \              \"lat\" : 34.0549076,\n               \"lng\" : -118.242643\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : \n            {\n               \"northeast\" : \n               {\n                  \"lat\"
+        : 34.3373061,\n                  \"lng\" : -118.1552891\n               },\n
+        \              \"southwest\" : \n               {\n                  \"lat\"
+        : 33.7036519,\n                  \"lng\" : -118.6681759\n               }\n
+        \           }\n         },\n         \"place_id\" : \"ChIJE9on3F3HwoAR9AhGJW_fL-I\",\n
+        \        \"types\" : \n         [\n            \"locality\",\n            \"political\"\n
+        \        ]\n      },\n      {\n         \"address_components\" : \n         [\n
+        \           {\n               \"long_name\" : \"Los Angeles County\",\n               \"short_name\"
+        : \"Los Angeles County\",\n               \"types\" : \n               [\n
+        \                 \"administrative_area_level_2\",\n                  \"political\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"California\",\n               \"short_name\" : \"CA\",\n               \"types\"
+        : \n               [\n                  \"administrative_area_level_1\",\n
+        \                 \"political\"\n               ]\n            },\n            {\n
+        \              \"long_name\" : \"United States\",\n               \"short_name\"
+        : \"US\",\n               \"types\" : \n               [\n                  \"country\",\n
+        \                 \"political\"\n               ]\n            }\n         ],\n
+        \        \"formatted_address\" : \"Los Angeles County, CA, USA\",\n         \"geometry\"
+        : \n         {\n            \"bounds\" : \n            {\n               \"northeast\"
+        : \n               {\n                  \"lat\" : 34.823302,\n                  \"lng\"
+        : -117.646374\n               },\n               \"southwest\" : \n               {\n
+        \                 \"lat\" : 32.75004,\n                  \"lng\" : -118.9517211\n
+        \              }\n            },\n            \"location\" : \n            {\n
+        \              \"lat\" : 34.3871821,\n               \"lng\" : -118.1122679\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : \n            {\n               \"northeast\" : \n               {\n                  \"lat\"
+        : 34.823302,\n                  \"lng\" : -117.646374\n               },\n
+        \              \"southwest\" : \n               {\n                  \"lat\"
+        : 32.75004,\n                  \"lng\" : -118.9517211\n               }\n
+        \           }\n         },\n         \"place_id\" : \"ChIJMc1kAdMq3YARKjm9z9YofYM\",\n
+        \        \"types\" : \n         [\n            \"administrative_area_level_2\",\n
+        \           \"political\"\n         ]\n      },\n      {\n         \"address_components\"
+        : \n         [\n            {\n               \"long_name\" : \"California\",\n
+        \              \"short_name\" : \"CA\",\n               \"types\" : \n               [\n
+        \                 \"administrative_area_level_1\",\n                  \"political\"\n
+        \              ]\n            },\n            {\n               \"long_name\"
+        : \"United States\",\n               \"short_name\" : \"US\",\n               \"types\"
+        : \n               [\n                  \"country\",\n                  \"political\"\n
+        \              ]\n            }\n         ],\n         \"formatted_address\"
+        : \"California, USA\",\n         \"geometry\" : \n         {\n            \"bounds\"
+        : \n            {\n               \"northeast\" : \n               {\n                  \"lat\"
+        : 42.009503,\n                  \"lng\" : -114.131211\n               },\n
+        \              \"southwest\" : \n               {\n                  \"lat\"
+        : 32.528832,\n                  \"lng\" : -124.482003\n               }\n
+        \           },\n            \"location\" : \n            {\n               \"lat\"
+        : 36.778261,\n               \"lng\" : -119.4179324\n            },\n            \"location_type\"
+        : \"APPROXIMATE\",\n            \"viewport\" : \n            {\n               \"northeast\"
+        : \n               {\n                  \"lat\" : 42.009503,\n                  \"lng\"
+        : -114.131211\n               },\n               \"southwest\" : \n               {\n
+        \                 \"lat\" : 32.528832,\n                  \"lng\" : -124.482003\n
+        \              }\n            }\n         },\n         \"place_id\" : \"ChIJPV4oX_65j4ARVW8IJ6IJUYs\",\n
+        \        \"types\" : \n         [\n            \"administrative_area_level_1\",\n
+        \           \"political\"\n         ]\n      },\n      {\n         \"address_components\"
+        : \n         [\n            {\n               \"long_name\" : \"United States\",\n
+        \              \"short_name\" : \"US\",\n               \"types\" : \n               [\n
+        \                 \"country\",\n                  \"political\"\n               ]\n
+        \           }\n         ],\n         \"formatted_address\" : \"United States\",\n
+        \        \"geometry\" : \n         {\n            \"bounds\" : \n            {\n
+        \              \"northeast\" : \n               {\n                  \"lat\"
+        : 74.071038,\n                  \"lng\" : -66.885417\n               },\n
+        \              \"southwest\" : \n               {\n                  \"lat\"
+        : 18.7763,\n                  \"lng\" : 166.9999999\n               }\n            },\n
+        \           \"location\" : \n            {\n               \"lat\" : 37.09024,\n
+        \              \"lng\" : -95.712891\n            },\n            \"location_type\"
+        : \"APPROXIMATE\",\n            \"viewport\" : \n            {\n               \"northeast\"
+        : \n               {\n                  \"lat\" : 74.071038,\n                  \"lng\"
+        : -66.885417\n               },\n               \"southwest\" : \n               {\n
+        \                 \"lat\" : 18.7763,\n                  \"lng\" : 166.9999999\n
+        \              }\n            }\n         },\n         \"place_id\" : \"ChIJCzYy5IS16lQRQrfeQ5K5Oxw\",\n
+        \        \"types\" : \n         [\n            \"country\",\n            \"political\"\n
+        \        ]\n      }\n   ],\n   \"status\" : \"OK\"\n}"
+  recorded_at: Wed, 17 Apr 2024 18:09:05 GMT
+recorded_with: VCR 6.2.0
